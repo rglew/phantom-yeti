@@ -1,0 +1,32 @@
+#blog-logo img {
+  width: auto;
+  height: 150px;
+  border-radius: none;
+  border: none;
+  position: relative;
+  margin: 1em auto 0;
+}
+
+.site-footer{
+  background: darken(#22B7D2, 10%);
+  color: #fff;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+}
+
+@font-face {
+  font-family: 'MikadoBold';
+  src: url('../fonts/286B52_0_0.eot');
+  src: url('../fonts/286B52_0_0.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/286B52_0_0.woff') format('woff'),
+  url('../fonts/286B52_0_0.ttf') format('truetype');
+}
+
+h1, h2, h3 {
+  font-family: mikadobold, Helvetica, Arial, sans-serif;
+}
+
+body {
+  font-family: museo-sans-rounded, Helvetica, Arial, sans-serif;
+  color: #3D484E; 
+}
