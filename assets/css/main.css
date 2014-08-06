@@ -6934,18 +6934,26 @@ footer.post-footer .author-img img {
   padding-bottom: 2.5em;
 }
 
+/* line 17, ../sass/globals/_lpdev.scss */
+footer.post-footer .author-img img {
+  border-radius: 0;
+  height: 75px;
+  width: auto;
+  border: none;
+}
+
 @font-face {
   font-family: 'MikadoBold';
   src: url("../fonts/286B52_0_0.eot");
   src: url("../fonts/286B52_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/286B52_0_0.woff") format("woff"), url("../fonts/286B52_0_0.ttf") format("truetype");
 }
 
-/* line 25, ../sass/globals/_lpdev.scss */
+/* line 32, ../sass/globals/_lpdev.scss */
 h1, h2, h3 {
   font-family: mikadobold, Helvetica, Arial, sans-serif;
 }
 
-/* line 29, ../sass/globals/_lpdev.scss */
+/* line 36, ../sass/globals/_lpdev.scss */
 body {
   font-family: museo-sans-rounded, Helvetica, Arial, sans-serif;
   color: #3D484E;
