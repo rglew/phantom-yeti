@@ -8,7 +8,7 @@ css_dir = "assets/css"
 sass_dir = "assets/sass"
 images_dir = "assets/imgs"
 javascripts_dir = "assets/js"
-output_style = :compressed
+output_style = :expanded
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
